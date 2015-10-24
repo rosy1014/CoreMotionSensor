@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B309D9E91BDB332300B11D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309D9E81BDB332300B11D91 /* AppDelegate.swift */; };
+		B309D9EB1BDB332300B11D91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309D9EA1BDB332300B11D91 /* ViewController.swift */; };
+		B309D9EE1BDB332300B11D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B309D9EC1BDB332300B11D91 /* Main.storyboard */; };
+		B309D9F01BDB332300B11D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B309D9EF1BDB332300B11D91 /* Assets.xcassets */; };
+		B309D9F31BDB332300B11D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B309D9F11BDB332300B11D91 /* LaunchScreen.storyboard */; };
+		B309D9FE1BDB332300B11D91 /* CoreMotionSensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309D9FD1BDB332300B11D91 /* CoreMotionSensorTests.swift */; };
+		B309DA091BDB332300B11D91 /* CoreMotionSensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309DA081BDB332300B11D91 /* CoreMotionSensorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B309D9FA1BDB332300B11D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B309D9DD1BDB332200B11D91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B309D9E41BDB332200B11D91;
+			remoteInfo = CoreMotionSensor;
+		};
+		B309DA051BDB332300B11D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B309D9DD1BDB332200B11D91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B309D9E41BDB332200B11D91;
+			remoteInfo = CoreMotionSensor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B309D9E51BDB332300B11D91 /* CoreMotionSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMotionSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B309D9E81BDB332300B11D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B309D9EA1BDB332300B11D91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B309D9ED1BDB332300B11D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B309D9EF1BDB332300B11D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B309D9F21BDB332300B11D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B309D9F41BDB332300B11D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B309D9F91BDB332300B11D91 /* CoreMotionSensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMotionSensorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B309D9FD1BDB332300B11D91 /* CoreMotionSensorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionSensorTests.swift; sourceTree = "<group>"; };
+		B309D9FF1BDB332300B11D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B309DA041BDB332300B11D91 /* CoreMotionSensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMotionSensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B309DA081BDB332300B11D91 /* CoreMotionSensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionSensorUITests.swift; sourceTree = "<group>"; };
+		B309DA0A1BDB332300B11D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B309D9E21BDB332200B11D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B309D9F61BDB332300B11D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B309DA011BDB332300B11D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B309D9DC1BDB332200B11D91 = {
+			isa = PBXGroup;
+			children = (
+				B309D9E71BDB332300B11D91 /* CoreMotionSensor */,
+				B309D9FC1BDB332300B11D91 /* CoreMotionSensorTests */,
+				B309DA071BDB332300B11D91 /* CoreMotionSensorUITests */,
+				B309D9E61BDB332300B11D91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B309D9E61BDB332300B11D91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B309D9E51BDB332300B11D91 /* CoreMotionSensor.app */,
+				B309D9F91BDB332300B11D91 /* CoreMotionSensorTests.xctest */,
+				B309DA041BDB332300B11D91 /* CoreMotionSensorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B309D9E71BDB332300B11D91 /* CoreMotionSensor */ = {
+			isa = PBXGroup;
+			children = (
+				B309D9E81BDB332300B11D91 /* AppDelegate.swift */,
+				B309D9EA1BDB332300B11D91 /* ViewController.swift */,
+				B309D9EC1BDB332300B11D91 /* Main.storyboard */,
+				B309D9EF1BDB332300B11D91 /* Assets.xcassets */,
+				B309D9F11BDB332300B11D91 /* LaunchScreen.storyboard */,
+				B309D9F41BDB332300B11D91 /* Info.plist */,
+			);
+			path = CoreMotionSensor;
+			sourceTree = "<group>";
+		};
+		B309D9FC1BDB332300B11D91 /* CoreMotionSensorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B309D9FD1BDB332300B11D91 /* CoreMotionSensorTests.swift */,
+				B309D9FF1BDB332300B11D91 /* Info.plist */,
+			);
+			path = CoreMotionSensorTests;
+			sourceTree = "<group>";
+		};
+		B309DA071BDB332300B11D91 /* CoreMotionSensorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B309DA081BDB332300B11D91 /* CoreMotionSensorUITests.swift */,
+				B309DA0A1BDB332300B11D91 /* Info.plist */,
+			);
+			path = CoreMotionSensorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B309D9E41BDB332200B11D91 /* CoreMotionSensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B309DA0D1BDB332300B11D91 /* Build configuration list for PBXNativeTarget "CoreMotionSensor" */;
+			buildPhases = (
+				B309D9E11BDB332200B11D91 /* Sources */,
+				B309D9E21BDB332200B11D91 /* Frameworks */,
+				B309D9E31BDB332200B11D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreMotionSensor;
+			productName = CoreMotionSensor;
+			productReference = B309D9E51BDB332300B11D91 /* CoreMotionSensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B309D9F81BDB332300B11D91 /* CoreMotionSensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B309DA101BDB332300B11D91 /* Build configuration list for PBXNativeTarget "CoreMotionSensorTests" */;
+			buildPhases = (
+				B309D9F51BDB332300B11D91 /* Sources */,
+				B309D9F61BDB332300B11D91 /* Frameworks */,
+				B309D9F71BDB332300B11D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B309D9FB1BDB332300B11D91 /* PBXTargetDependency */,
+			);
+			name = CoreMotionSensorTests;
+			productName = CoreMotionSensorTests;
+			productReference = B309D9F91BDB332300B11D91 /* CoreMotionSensorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B309DA031BDB332300B11D91 /* CoreMotionSensorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B309DA131BDB332300B11D91 /* Build configuration list for PBXNativeTarget "CoreMotionSensorUITests" */;
+			buildPhases = (
+				B309DA001BDB332300B11D91 /* Sources */,
+				B309DA011BDB332300B11D91 /* Frameworks */,
+				B309DA021BDB332300B11D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B309DA061BDB332300B11D91 /* PBXTargetDependency */,
+			);
+			name = CoreMotionSensorUITests;
+			productName = CoreMotionSensorUITests;
+			productReference = B309DA041BDB332300B11D91 /* CoreMotionSensorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B309D9DD1BDB332200B11D91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ruoxi Lu";
+				TargetAttributes = {
+					B309D9E41BDB332200B11D91 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B309D9F81BDB332300B11D91 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B309D9E41BDB332200B11D91;
+					};
+					B309DA031BDB332300B11D91 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B309D9E41BDB332200B11D91;
+					};
+				};
+			};
+			buildConfigurationList = B309D9E01BDB332200B11D91 /* Build configuration list for PBXProject "CoreMotionSensor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B309D9DC1BDB332200B11D91;
+			productRefGroup = B309D9E61BDB332300B11D91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B309D9E41BDB332200B11D91 /* CoreMotionSensor */,
+				B309D9F81BDB332300B11D91 /* CoreMotionSensorTests */,
+				B309DA031BDB332300B11D91 /* CoreMotionSensorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B309D9E31BDB332200B11D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B309D9F31BDB332300B11D91 /* LaunchScreen.storyboard in Resources */,
+				B309D9F01BDB332300B11D91 /* Assets.xcassets in Resources */,
+				B309D9EE1BDB332300B11D91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B309D9F71BDB332300B11D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B309DA021BDB332300B11D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B309D9E11BDB332200B11D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B309D9EB1BDB332300B11D91 /* ViewController.swift in Sources */,
+				B309D9E91BDB332300B11D91 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B309D9F51BDB332300B11D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B309D9FE1BDB332300B11D91 /* CoreMotionSensorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B309DA001BDB332300B11D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B309DA091BDB332300B11D91 /* CoreMotionSensorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B309D9FB1BDB332300B11D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B309D9E41BDB332200B11D91 /* CoreMotionSensor */;
+			targetProxy = B309D9FA1BDB332300B11D91 /* PBXContainerItemProxy */;
+		};
+		B309DA061BDB332300B11D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B309D9E41BDB332200B11D91 /* CoreMotionSensor */;
+			targetProxy = B309DA051BDB332300B11D91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B309D9EC1BDB332300B11D91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B309D9ED1BDB332300B11D91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B309D9F11BDB332300B11D91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B309D9F21BDB332300B11D91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B309DA0B1BDB332300B11D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B309DA0C1BDB332300B11D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B309DA0E1BDB332300B11D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreMotionSensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoreMotionSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B309DA0F1BDB332300B11D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreMotionSensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoreMotionSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B309DA111BDB332300B11D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoreMotionSensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoreMotionSensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreMotionSensor.app/CoreMotionSensor";
+			};
+			name = Debug;
+		};
+		B309DA121BDB332300B11D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoreMotionSensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoreMotionSensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreMotionSensor.app/CoreMotionSensor";
+			};
+			name = Release;
+		};
+		B309DA141BDB332300B11D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoreMotionSensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoreMotionSensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoreMotionSensor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B309DA151BDB332300B11D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoreMotionSensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoreMotionSensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoreMotionSensor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B309D9E01BDB332200B11D91 /* Build configuration list for PBXProject "CoreMotionSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B309DA0B1BDB332300B11D91 /* Debug */,
+				B309DA0C1BDB332300B11D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B309DA0D1BDB332300B11D91 /* Build configuration list for PBXNativeTarget "CoreMotionSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B309DA0E1BDB332300B11D91 /* Debug */,
+				B309DA0F1BDB332300B11D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B309DA101BDB332300B11D91 /* Build configuration list for PBXNativeTarget "CoreMotionSensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B309DA111BDB332300B11D91 /* Debug */,
+				B309DA121BDB332300B11D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B309DA131BDB332300B11D91 /* Build configuration list for PBXNativeTarget "CoreMotionSensorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B309DA141BDB332300B11D91 /* Debug */,
+				B309DA151BDB332300B11D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B309D9DD1BDB332200B11D91 /* Project object */;
+}
